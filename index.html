@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контрольна робота Гложик Микола Михайлович</title>
+  <style>
+    .calculator {
+      max-width: 400px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    
+    input, button {
+      margin: 5px;
+      padding: 10px;
+    }
+    
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Контрольна робота Гложик Микола Михайлович</h1>
+  <div class="calculator">
+    <input type="text" id="num1" placeholder="Введіть перше число">
+    <input type="text" id="num2" placeholder="Введіть друге число">
+    <button onclick="sum()">+</button>
+    <button onclick="subtract()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <button onclick="naturalLog()">ln</button>
+    <button onclick="sine()">sin</button>
+    <button onclick="tangent()">tan</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
